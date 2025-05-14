@@ -10,3 +10,5 @@ Este é um projeto Spring Boot que permite salvar o nome de uma pessoa digitado 
 4.  Uma página de sucesso é exibida após o salvamento.
 
 Você pode verificar os nomes salvos acessando o console do H2 (detalhes na seção "Como Verificar os Dados no Banco de Dados H2").
+
+Realizado junto de @calol2
