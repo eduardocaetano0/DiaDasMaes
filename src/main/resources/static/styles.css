@@ -1,0 +1,80 @@
+body {
+    margin:0;
+    padding:10em;
+
+
+}
+html {
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:1em 110em;
+    color: rgb(228, 0, 0);
+    line-height: 5em;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+button:hover{
+    background-color: rgb(212, 59, 97);
+}
+
+form {
+    background:rgb(228, 213, 213);
+    background-size:contain;
+    display: grid;
+    gap: 0.5em;
+    margin: 1em auto;
+    width: 80%;
+    border-style:solid;
+    border-color: rgb(255, 0, 0);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin:0;
+    text-align: center;
+}
+h2{
+    font-size: 3em;
+    width: 100%;
+}
+label{
+    display:block;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    width:200px;
+    height:30px;
+}
+button{
+    background-color: rgb(195, 204, 206);
+    width: 150px;
+    font-size: 25px;
+    padding:5px 5px 5px 5px;
+
+
+}
+h1{
+    font-size: 5em;
+    width:100%;
+    white-space:pre;
+}
